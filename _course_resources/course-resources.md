@@ -67,7 +67,7 @@ CREATE OR REPLACE TABLE raw_reviews
                      date datetime,
                      reviewer_name string,
                      comments string,
-                     sentiment string);
+                     sentiment strifng);
 
 COPY INTO raw_reviews (listing_id, date, reviewer_name, comments, sentiment)
                    from 's3://dbt-datasets/reviews.csv'
