@@ -24,7 +24,8 @@ replace(
         10,
         2) 
         as price,
-        created_at,
-        updated_at
-        from 
-        src_listings
+price_str,
+created_at,
+updated_at
+from 
+src_listings
